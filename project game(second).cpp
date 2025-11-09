@@ -13,7 +13,7 @@ int main() {
     cout << "me: ";
     cin >> me;
 
-    cout << "Комп’ютер обрав: " << game << endl;
+    cout << "Computer select: " << game << endl;
 
     bool win = false;
     bool draw = false;
@@ -33,13 +33,13 @@ int main() {
         win = true;
     }
     if (draw) {
-        cout << "Нічия!" << endl;
+        cout << "draw!" << endl;
     }
     else if (win) {
-        cout << "Ви перемогли!" << endl;
+        cout << "You win!" << endl;
     }
     else {
-        cout << "Ви програли!" << endl;
+        cout << "You lose!" << endl;
     }
 
     return 0;
